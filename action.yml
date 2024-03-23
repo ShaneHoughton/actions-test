@@ -1,0 +1,5 @@
+name: shane houghton hello world
+description: greets the user
+runs: 
+  using: node16
+  main: src/index.js
