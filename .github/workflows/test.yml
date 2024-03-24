@@ -15,6 +15,6 @@ jobs:
 
       - uses: ./
         with:
-          path: './test.json'
+          path: '.src/test.json'
           attr: 'name'
 
