@@ -1,10 +1,12 @@
 name: shane houghton hello world
 description: greets the user
 inputs:
-  person:
-    description: 'Optional person to greet'
+  path:
+    description: 'path to the json file'
     required: true
-    default: 'sexy'
+  attr:
+    description: 'attribute to be accessed on json'
+    required: true
 runs: 
   using: node16
-  main: src/index.js
+  main: src/parseJson.js
