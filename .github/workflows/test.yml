@@ -14,9 +14,8 @@ jobs:
       - run: npm install
 
       - name: Use custom action
-      - run:
-        - uses: ./
-          with:
-            path: './src/test.json'
-            attr: 'name'
+      - uses: ./
+        with:
+          path: './src/test.json'
+          attr: 'name'
 
