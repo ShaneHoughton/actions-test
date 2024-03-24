@@ -13,7 +13,6 @@ jobs:
           node-version: 16
       - run: npm install
 
-      - name: Use custom action
       - uses: ./
         with:
           path: './src/test.json'
