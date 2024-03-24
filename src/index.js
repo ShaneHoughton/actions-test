@@ -1,1 +1,3 @@
-console.log('hello world!!!');
+const person = process.env.INPUT_PERSON;
+
+console.log(`hello, ${person}.`);

@@ -1,5 +1,10 @@
 name: shane houghton hello world
 description: greets the user
+inputs:
+  person:
+    description: 'Optional person to greet'
+    required: true
+    default: 'sexy'
 runs: 
   using: node16
   main: src/index.js
