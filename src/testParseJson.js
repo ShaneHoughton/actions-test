@@ -1,6 +1,6 @@
 import { readFile } from 'fs/promises';
 
-const path = 'src/test.json';
+const path = './src/test.json';
 const attr = 'name';
 
 const readJsonFile = async () => {
