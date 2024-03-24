@@ -1,3 +1,5 @@
+const fetch = require('node-fetch');
+
 const path = process.env.INPUT_PATH;
 const attr = process.env.INPUT_ATTR;
 
