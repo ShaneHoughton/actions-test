@@ -1,7 +1,7 @@
 import { readFile } from 'fs/promises';
 
-const path = process.env.INPUT_PATH;
-const attr = process.env.INPUT_ATTR;
+const path = 'src/test.json';
+const attr = 'name';
 
 const readJsonFile = async () => {
   const file = await readFile(path, 'utf-8');
